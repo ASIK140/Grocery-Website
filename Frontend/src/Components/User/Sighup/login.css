@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  
+}
+.log{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.125);
+}
+.Forgot{
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    cursor: pointer;
+}
+.createAcc a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-left: 5px;
+}

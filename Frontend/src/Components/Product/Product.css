@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+.products{
+    padding: 20px 30px;
+}
+.product{
+border: 1.8px solid rgba(0, 0, 0, 0.3);
+height: 30vmax;
+width: 19vmax;
+transition: all 0.2s;
+}
+.pro-img{
+    display: flex;
+    justify-content: center;
+}
+.pro-img img{
+    height: 20vmax;
+}
+.pro-details{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    font-size: 1.5vmax;
+    display: flex;
+    gap: 10px;
+}
+#name p{
+    font-size: 1.2vmax;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+#price{
+    font-size: 2vmax;
+    font-weight: 500;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    border: none;
+    background-color: #301305;
+    color: #fff;
+    border-radius: 3px;
+    height: 3vmax;
+    width: 8vmax;
+    transition: all 0.3s;
+}
+.product:hover{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.28);
+    transform: translateY(-5px);
+}
+.button button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}

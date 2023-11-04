@@ -1,0 +1,27 @@
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.search form {
+  padding-left: 10px;
+  border: 1px solid black;
+  height: 3.5vmax;
+  width: 35vmax;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search input {
+  border: none;
+  height: 100%;
+  font-size: 1.5vmax;
+  width: calc(100% - 60px);
+  outline: none;
+}
+.search form button {
+  border: none;
+  height: 100%;
+  width: 60px;
+}

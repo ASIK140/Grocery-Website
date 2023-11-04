@@ -1,0 +1,57 @@
+.dash {
+  display: flex;
+  gap: 5vmax;
+  justify-content: center;
+}
+.total {
+  height: 17vmax;
+  width: 17vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+.total:hover {
+  transform: translateY(-5px);
+}
+#users {
+  background-color: lightblue;
+}
+#orders {
+  background-color: lightcoral;
+}
+#sell {
+  background-color: lightgreen;
+}
+.total h3 {
+  font-size: 4vmax;
+}
+.total span {
+  font-size: 2vmax;
+  opacity: 80%;
+}
+@media screen and (max-width: 600px) {
+  .dash {
+    flex-direction: column;
+  }
+}
+.productList {
+  position: relative;
+  height: 100%;
+}
+.addProduct {
+  position: absolute;
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

@@ -1,0 +1,13 @@
+.con {
+  display: flex;
+  justify-content: center;
+}
+.createPage {
+  position: relative;
+  width: 280px;
+  padding: 30px 20px 30px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}

@@ -1,0 +1,36 @@
+.card {
+  height: 15vmax;
+  width: 13vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 1vmax;
+  text-align: center;
+}
+.catLink {
+  text-decoration: none;
+}
+.card .img {
+  height: 10vmax;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.26);
+}
+.card .img img {
+  width: 14vmax;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+}
+.Cate {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vmax;
+}
+.cat h4 {
+  font-size: 1.5vmax;
+}

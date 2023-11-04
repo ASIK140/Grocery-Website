@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  --color-1: #301305;
+  --color-2: #d4ae43;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#h-1 {
+  padding: 2vmax 3vmax 2vmax 3vmax;
+}
+.logo img {
+  width: 5vmax;
+}
+.left {
+  display: flex;
+  gap: 5vmax;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav ul {
+  margin-top: 10px;
+  display: flex;
+  gap: 2.5vmax;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #301305;
+}
+.nav ul li {
+  list-style: none;
+  font-size: 1.3vmax;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nav ul li:hover {
+  color: #d4ae43;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.log-btn button {
+  width: 7vmax;
+  border: 1px solid black;
+  background: transparent;
+  font-size: 1.3vmax;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 7px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.log-btn button:hover {
+  background-color: #d4ae43;
+  border: none;
+  color: #fff;
+}
+.icon i {
+  position: relative;
+}
+.mark {
+  position: absolute;
+  top: -5px;
+  width: 17px;
+  height: 17px;
+  right: -5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(255, 72, 0);
+  border-radius: 50%;
+}
+.tag {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
