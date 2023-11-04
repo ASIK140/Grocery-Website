@@ -25,7 +25,7 @@ Install Frontend dependencies
 ```bash
   npm install
 ```
-
+Run Frontend
 ```bash
   npm start
 ```
